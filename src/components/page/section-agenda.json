@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_agenda",
+  "info": {
+    "displayName": "sectionAgenda"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Curso 100% completo!"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
