@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "displayName": "sectionTech",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Tecnologias utilizadas"
+    },
+    "techIcons": {
+      "displayName": "tech",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech",
+      "max": 10,
+      "required": true,
+      "min": 5
+    }
+  }
+}

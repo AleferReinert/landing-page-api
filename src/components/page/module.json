@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_modules",
+  "info": {
+    "displayName": "modules",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Módulo "
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

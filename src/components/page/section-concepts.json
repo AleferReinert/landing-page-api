@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "displayName": "sectionConcepts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Conceitos que você irá aprender"
+    },
+    "concepts": {
+      "displayName": "concepts",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concepts",
+      "required": true
+    }
+  }
+}
