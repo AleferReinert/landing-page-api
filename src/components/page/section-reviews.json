@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "displayName": "sectionReviews"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Junte-se a mais de 200 mil alunos",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reviews",
+      "required": true,
+      "min": 4
+    }
+  }
+}
