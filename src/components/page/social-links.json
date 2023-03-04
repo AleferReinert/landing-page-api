@@ -1,7 +1,8 @@
 {
   "collectionName": "components_page_social_links",
   "info": {
-    "displayName": "socialLinks"
+    "displayName": "socialLinks",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,7 +11,7 @@
       "enum": [
         "Github",
         "Twitter",
-        "Dribble",
+        "Dribbble",
         "LinkedIn",
         "Facebook"
       ],
@@ -19,8 +20,7 @@
     },
     "url": {
       "type": "string",
-      "required": true,
-      "default": "url"
+      "required": true
     }
   }
 }
