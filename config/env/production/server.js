@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   port: process.env.PORT,
   url: env("MY_HEROKU_URL"),
   app: {
-    keys: env.array("APP_KEYS"),
+    keys: env.array("APP_KEYS", ["testKey1", "testKey2"]),
   },
   admin: {
     auth: {
