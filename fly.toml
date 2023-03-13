@@ -1,0 +1,10 @@
+app = "landing-page-api"
+[env]
+  APP_KEYS = "key1,key2"
+  NODE_ENV = "production"
+  JWT_SECRET = "M9VSzX9BtofX76MLZE9W8T6dk7Abkxh5PYIV9zW7v+1chBfzDCxo1lA+e/f5lR7p"
+  API_TOKEN_SALT = "MYkOrDBhIqnHX5/e71D0xFqKZXIMWsslavvzUVh/vT7wfMiNxFXJKPukLHKQ7Wn0"
+  ADMIN_JWT_SECRET = "OBJOyZksIrpnCR3g8SgwaUOWemOdafuhIwPJXNrUqj1YyFoiQN4f+2Hfgo+kKxsN"
+[[services]]
+  internal_port = 1337
+  protocol = "tcp"
