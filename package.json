@@ -1,5 +1,5 @@
 {
-  "name": "reactavancado-api",
+  "name": "landing-page-api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -21,7 +21,7 @@
     "strapi-plugin-ckeditor5": "^2.1.1-rc.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Alefer Reinert"
   },
   "strapi": {
     "uuid": "72853c32-0f86-408d-ab9d-892c80898b12"

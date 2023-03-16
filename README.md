@@ -1,34 +1,35 @@
-# React Avançado - Landing Page API
+# Landing Page API
 
-This is the API to create the [React Avançado Landing Page](https://reactavancado.com.br/).
+[API](https://landing-page-api-production.up.railway.app/) usada para a [Landing Page](https://landing-page-ar.netlify.app/).
 
-## Requirements
+Esse projeto faz parte do curso "React Avançado: Crie aplicações com NextJS, Strapi e mais".
 
-This project uses [PostgreSQL](https://www.postgresql.org/), so, in order to make it working, install in your local machine or use Docker.
+## Requisitos
 
-The configuration to the Database can be found on [config/database.js](config/database.js)
+Esse projeto usa PostgreSQL.
 
-## Development
+- Instale o [PostegreSQL](https://www.postgresql.org) em sua máquina local
+- Configure a conexão em [config/database.js](config/database.js)
+- Backup do banco em [database.sql](database.sql)
+- Adicione o conteúdo de [data.zip](data.zip) na pasta public/uploads
 
-After cloning this project, install the dependencies:
+## Desenvolvimento
+
+Após clonar o projeto, instale as dependências:
 
 ```
 yarn install
 ```
 
-And run using:
+E rode usando:
 
 ```
 yarn develop
 ```
 
-The urls to access are:
+As urls de acesso são:
 
-- `http://localhost:1337/admin` - The Dashboard to create and populate data
-- `http://localhost:1337/graphql` - GraphQL Playground to test your queries
+- `http://localhost:5000/admin` - Dashboard para criar e popular dados
+- `http://localhost:5000/graphql` - Ambiente GraphQL para testar a queries
 
-The first time to access the Admin you'll need to create an user.
-
-## Dump data
-
-This project uses `Postgres` and if you want all the data previously, unzip the [data.zip](data.zip), copy the `uploads` folder to [public/uploads](public/uploads) and restore the data from the `local.dump` file inside the zip.
+No primeiro acesso ao Admin é necessário criar um usuário.
