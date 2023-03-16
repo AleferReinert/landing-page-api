@@ -1,5 +1,5 @@
 const axios = require("axios");
-const netlifyWebhook = strapi.config.get("custom.newlifyWebhook");
+const netlifyWebhook = strapi.config.get("custom.netlifyWebhook");
 
 module.exports = {
   afterCreate(event) {
